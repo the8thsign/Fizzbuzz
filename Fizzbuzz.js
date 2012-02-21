@@ -4,8 +4,8 @@ and for the multiples of five print "Buzz".
 For numbers which are multiples of both three and five print "FizzBuzz".
 */
 
-// Loop that counts 0 to 20
-for (var i = 1; i <= 20; i++) {
+// Loop that counts 0 to 100
+for (var i = 1; i <= 100; i++) {
 
 	if (i % 3 === 0 && i % 5 === 0) {
 	console.log("FizzBuzz");
